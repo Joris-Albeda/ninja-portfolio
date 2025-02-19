@@ -7,6 +7,6 @@ const { data: post } = await useAsyncData(`blog-${slug}`, () => {
 
 <template>
   <!-- Render the blog post as Prose & Vue components -->
-  <ContentRenderer v-if="post" :value="post" />
+  <ContentRenderer class="prose" v-if="post" :value="post" />
   <div v-else>Post {{ slug }} not found</div>
 </template>
