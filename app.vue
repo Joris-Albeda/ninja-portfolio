@@ -1,6 +1,8 @@
 <template>
   <div>
     <SiteHeader />
-    <h1>Hello, Nuxt 3!</h1>
+    <main class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+      <NuxtPage />
+    </main>
   </div>
 </template>
